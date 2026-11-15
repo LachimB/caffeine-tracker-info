@@ -10,7 +10,7 @@ Public information website for the Caffeine Tracker Android app, maintained by [
 
 ## Feature availability
 
-The latest numbered release uses favourites-based logging and native date/time pickers. The unified drink catalogue, named sizes, espresso-equivalent recipes and optional AI estimates described below are development features awaiting a later numbered release.
+Version 3.0.0 includes the unified editable drink catalogue, named serving sizes, espresso-equivalent recipes and optional AI caffeine estimates described here. Existing drink recipes and journal history are preserved. AI estimates remain optional and require your own OpenAI API key.
 
 ## App features described here
 
