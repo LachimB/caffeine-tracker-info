@@ -10,7 +10,9 @@ Public information website for the Caffeine Tracker Android app, maintained by [
 
 ## App features described here
 
-The app records caffeine intake locally, with History corrections, configurable latest-action Undo, caffeine statistics and optional Google Drive exports/backups. Named favourites support serving-aware quick logging and explicit linked coffee/tea alternatives, including 0 mg choices. Separate 7-/28-day choice summaries use classified favourite choices; they do not estimate caffeine savings. Logged choices keep their original details after the catalogue changes, including archiving or removal. New automatic side effects wait through undo deadlines. Future consumption is labelled and requires a warning; unknown times stay unknown. Manual snapshots and full backups remain historical copies. No general hydration or standalone caffeine-free drink catalogue is described.
+The app records caffeine intake locally, with one editable drink catalogue, estimated starter recipes, History corrections, configurable latest-action Undo, statistics and optional Google Drive exports/backups. Recipes support milligrams or espresso equivalents, optional serving prompts, arbitrary volumes and named sizes with independent caffeine amounts or espresso counts. Existing recipes and historical records keep their recorded details through upgrades, edits and archiving. Legacy linked-choice summaries remain available.
+
+Optional OpenAI caffeine estimates require a user-provided API key. The disabled wand becomes available after key setup and when the amount is blank. Explicit requests send only a drink name and optional reference/serving volume; users review the estimate before use. The key is encrypted on-device and excluded from journal exports and backups. Provider processing and possible API charges are described in the privacy policy and terms.
 
 ## Hosting and editing
 
