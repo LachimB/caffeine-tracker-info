@@ -8,6 +8,10 @@ Public information website for the Caffeine Tracker Android app, maintained by [
 - [Privacy policy](https://lachimb.github.io/caffeine-tracker-info/privacy.html)
 - [Terms of service](https://lachimb.github.io/caffeine-tracker-info/terms.html)
 
+## Feature availability
+
+The latest numbered release uses favourites-based logging and native date/time pickers. The unified drink catalogue, named sizes, espresso-equivalent recipes and optional AI estimates described below are development features awaiting a later numbered release.
+
 ## App features described here
 
 The app records caffeine intake locally, with one editable drink catalogue, estimated starter recipes, History corrections, configurable latest-action Undo, statistics and optional Google Drive exports/backups. Recipes support milligrams or espresso equivalents, optional serving prompts, arbitrary volumes and named sizes with independent caffeine amounts or espresso counts. Existing recipes and historical records keep their recorded details through upgrades, edits and archiving. Legacy linked-choice summaries remain available.
