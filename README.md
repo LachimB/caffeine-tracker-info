@@ -8,6 +8,10 @@ Public information website for the Caffeine Tracker Android app, maintained by [
 - [Privacy policy](https://lachimb.github.io/caffeine-tracker-info/privacy.html)
 - [Terms of service](https://lachimb.github.io/caffeine-tracker-info/terms.html)
 
+## App features described here
+
+The app records caffeine intake locally, with History corrections, configurable latest-action Undo, caffeine statistics and optional Google Drive exports/backups. New automatic side effects wait through undo deadlines. Future consumption is labelled and requires a warning; unknown times stay unknown. Manual snapshots and full backups remain historical copies. No general hydration or standalone caffeine-free drink catalogue is described.
+
 ## Hosting and editing
 
 GitHub Pages publishes the root of the `main` branch. `.nojekyll` disables Jekyll processing. Edit the three HTML files and shared assets directly; there is no build step, JavaScript, analytics, external font, or dependency install. For a local preview, run `python3 -m http.server 8765` from this directory.
