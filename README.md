@@ -10,11 +10,11 @@ Public information website for the Caffeine Tracker Android app, maintained by [
 
 ## Feature availability
 
-Version 3.1.0 opens to Today: logged caffeine, caffeinated-drink count, last known caffeine time, optional daily target progress and entries you can review or correct. It retains the editable drink catalogue, named serving sizes, espresso-equivalent recipes and optional reviewed AI estimates. Existing recipes and history are preserved.
+Version 3.2.0 separates the Today overview from adding a drink. Review logged caffeine, optional target progress and today’s saved drinks, then use Add drink between the summary and entry list to open the form. Saving returns to Today with Undo; going back keeps the unfinished draft. The editable catalogue, serving sizes, optional reviewed AI estimates and existing history remain available.
 
 ## App features described here
 
-The app opens to Today with logged caffeine, positive-caffeine drink count, last known observed caffeine time, optional daily target progress and correction access. New-entry and correction previews show the selected date’s total after saving, including both dates for a move. Unknown times and future consumption stay explicit. A deliberately selected historical draft keeps its date through navigation and restarting. These views calculate on-device without new permissions or automatic AI requests.
+The app opens to Today with logged caffeine, positive-caffeine drink count, last known observed caffeine time, optional daily target progress and correction access. An Add drink button between the overview and today’s entries opens a separate form. Saving returns to Today with Undo; Back preserves the unfinished draft. New-entry and correction previews show the selected date’s total after saving, including both dates for a move. Unknown times and future consumption stay explicit. A deliberately selected historical draft keeps its date through navigation and restarting. These views calculate on-device without new permissions or automatic AI requests.
 
 The app records caffeine intake locally, with one editable drink catalogue, estimated starter recipes, History corrections, configurable latest-action Undo, statistics and optional Google Drive exports/backups. Recipes support milligrams or espresso equivalents, optional serving prompts, arbitrary volumes and named sizes with independent caffeine amounts or espresso counts. Existing recipes and historical records keep their recorded details through upgrades, edits and archiving. Legacy linked-choice summaries remain available.
 
