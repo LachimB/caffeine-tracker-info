@@ -24,6 +24,10 @@ Optional timing insights use recorded drink dates and observed exact times. You 
 
 Timing calculations stay on-device. Optional timing settings are included in full backups, with no new permission or automatic AI request. Existing exports and journal history retain their meaning.
 
+Home widgets show today’s logged caffeine and caffeinated-drink count. Choose a drink from the same catalogue for each widget, using Widget setup or Settings → Home widgets. Enlarge an existing small widget to show recipe, linked-alternative and setup actions; small widgets retain the read-only summary and tap-to-open-Today route. Logging opens an app review and saves only when you confirm. Prompted serving sizes are resolved first, including sizes with their own caffeine dose and no volume. Explicit alternatives create only the consumed drink. Use the shared Undo window or open Today to correct a saved record.
+
+Widget references and unfinished reviews are included in full backups. Refreshing or configuring a widget never logs a drink. No additional permission or automatic AI request is introduced.
+
 ## Hosting and editing
 
 GitHub Pages publishes the root of the `main` branch. `.nojekyll` disables Jekyll processing. Edit the three HTML files and shared assets directly; there is no build step, JavaScript, analytics, external font, or dependency install. For a local preview, run `python3 -m http.server 8765` from this directory.
