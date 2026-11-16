@@ -20,6 +20,10 @@ The app records caffeine intake locally, with one editable drink catalogue, esti
 
 Optional OpenAI caffeine estimates require a user-provided API key. The disabled wand becomes available after key setup and when the amount is blank. Explicit requests send only a drink name and optional reference/serving volume; users review the estimate before use. The key is encrypted on-device and excluded from journal exports and backups. Provider processing and possible API charges are described in the privacy policy and terms.
 
+Optional timing insights use recorded drink dates and observed exact times. You can set a personal cutoff, show more timing detail on Today, inspect first and last caffeine by date, and browse 7-day, 28-day or calendar-week periods. Cutoff amounts use each drink’s recorded local clock. Earlier/later comparisons use eligible confirmed, fully timed days with compatible time zones; missing times, future consumption, short history and incomplete periods are disclosed. Historical coffee/tea choice views retain explicit logged-choice counts and shares, with matching previous-period boundaries. These are observations of your log, not caffeine-saved estimates or sleep predictions.
+
+Timing calculations stay on-device. Optional timing settings are included in full backups, with no new permission or automatic AI request. Existing exports and journal history retain their meaning.
+
 ## Hosting and editing
 
 GitHub Pages publishes the root of the `main` branch. `.nojekyll` disables Jekyll processing. Edit the three HTML files and shared assets directly; there is no build step, JavaScript, analytics, external font, or dependency install. For a local preview, run `python3 -m http.server 8765` from this directory.
