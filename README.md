@@ -44,6 +44,8 @@ Google also requires domain ownership verification for brand review. A deployed 
 
 Official guidance: [brand verification](https://developers.google.com/identity/protocols/oauth2/production-readiness/brand-verification), [OAuth policy compliance](https://developers.google.com/identity/protocols/oauth2/production-readiness/policy-compliance).
 
+Caffeinated-drink averages include only dates marked complete plus today, within the last 7 or 28 days and starting with the first logged positive-caffeine drink. Completed caffeine-free dates count as zero; unconfirmed past dates are excluded. The caffeine-amount trend continues to include all dates in its window.
+
 ## Support
 
 [Open a support issue](https://github.com/LachimB/caffeine-tracker-info/issues) for general questions. Issues are public. Never upload journal data, backups, account details, credentials or screenshots containing personal information.
